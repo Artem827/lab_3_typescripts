@@ -1,0 +1,25 @@
+# Загальні файли Node.js
+/node_modules
+/dist
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.npm
+.gitignore
+# Згенеровані файли TypeScript
+# Ігноруємо всі файли .js та .d.ts у корені та в src/, які є результатом компіляції .ts
+*.js
+*.d.ts
+/src/*.js
+/src/*.d.ts
+
+# Середовища IDE (наприклад, IntelliJ/WebStorm/VS Code)
+.idea/
+.vscode/
+*.iml
+.DS_Store
+
+# Файли конфігурації компілятора
+# Якщо .env використовується для конфігурації середовища
+.env
+.env.*

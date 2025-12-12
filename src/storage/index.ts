@@ -1,4 +1,4 @@
-import { Professor, Classroom, Course, Lesson } from "./types";
+import { Professor, Classroom, Course, Lesson } from "../types/index";
 
 export let professors: Professor[] = [];
 export let classrooms: Classroom[] = [];
