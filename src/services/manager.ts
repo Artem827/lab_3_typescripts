@@ -1,5 +1,5 @@
-import { Lesson, Professor, Classroom, Course, ScheduleConflict, TimeSlot, DayOfWeek, CourseType } from "./types";
-import { professors, classrooms, courses, schedule, idCounter } from "./data";
+import { Lesson, Professor, Classroom, Course, ScheduleConflict, TimeSlot, DayOfWeek, CourseType } from "../types/index";
+import { professors, classrooms, courses, schedule, idCounter } from "../storage/index";
 
 // --- ФУНКЦІЇ ДОДАВАННЯ ---
 

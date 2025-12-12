@@ -3,8 +3,9 @@ import {
     printSchedule, findAvailableClassrooms, getProfessorSchedule,
     getClassroomUtilization, getMostPopularCourseType,
     reassignClassroom, cancelLesson
-} from "./scheduleManager";
-import { classrooms, courses } from "./data";
+} from "./services/manager";
+
+import { classrooms, courses } from "./storage";
 
 console.log(" СИСТЕМА УПРАВЛІННЯ РОЗКЛАДОМ УНІВЕРСИТЕТУ \n");
 
